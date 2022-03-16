@@ -1,6 +1,6 @@
 {
   "name": "nc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Porting Netcat in Node.js",
   "main": "index.js",
   "preferGlobal": true,
@@ -40,8 +40,8 @@
     "standard": "^16.0.4"
   },
   "dependencies": {
-    "debug": "^4.1.1",
-    "netcat": "^1.4.0",
-    "yargs": "^17.2.1"
+    "debug": "^4.3.3",
+    "netcat": "git+https://github.com/dsueltenfuss/netcat.git",
+    "yargs": "^17.3.1"
   }
 }
